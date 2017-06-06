@@ -1,0 +1,9 @@
+C:\Dev\Gitbackup\Gitbackup\Gitbackup\bin\Debug\Gitbackup.exe.config
+C:\Dev\Gitbackup\Gitbackup\Gitbackup\bin\Debug\Gitbackup.exe
+C:\Dev\Gitbackup\Gitbackup\Gitbackup\bin\Debug\Gitbackup.pdb
+C:\Dev\Gitbackup\Gitbackup\Gitbackup\obj\Debug\Gitbackup.csprojResolveAssemblyReference.cache
+C:\Dev\Gitbackup\Gitbackup\Gitbackup\obj\Debug\Gitbackup.exe
+C:\Dev\Gitbackup\Gitbackup\Gitbackup\obj\Debug\Gitbackup.pdb
+C:\Dev\Gitbackup\Gitbackup\Gitbackup\bin\Debug\ConsoleAppLauncher.dll
+C:\Dev\Gitbackup\Gitbackup\Gitbackup\obj\Debug\Gitbackup.Properties.Resources.resources
+C:\Dev\Gitbackup\Gitbackup\Gitbackup\obj\Debug\Gitbackup.csproj.GenerateResource.Cache
