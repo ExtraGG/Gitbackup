@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Threading;
+using System.Media;
 
 namespace Gitbackup
 {
@@ -13,20 +14,30 @@ namespace Gitbackup
             var timestamp = DateTime.Now;
             commitMessage = commitMessage + timestamp;
 
+            /*Add soundplayer for user friendliness.*/
+            SoundPlayer TiberianSun = new SoundPlayer();
+            TiberianSun.Stream = Properties.Resources.notification;
+
             /*Make it somewhat user friendly (Tiberian Sun style)*/
             Console.ForegroundColor = ConsoleColor.Green;
             Thread.Sleep(100);
             Console.WriteLine("ANALYZING COMBAT ZONE TOPOGRAPHY...");
+            TiberianSun.Play();
             Thread.Sleep(300);
             Console.WriteLine("COMPENSATING FOR AMBIENT LIGHT VALUES...");
+            TiberianSun.Play();
             Thread.Sleep(1000);
             Console.WriteLine("COMPILING WARTIME CONVENTIONS...");
+            TiberianSun.Play();
             Thread.Sleep(700);
             Console.WriteLine("GATHERING INTEL ON INVOLVED FACTIONS...");
+            TiberianSun.Play();
             Thread.Sleep(500);
             Console.WriteLine("CREATING THEORIES ON LIKELY ENEMY PLAN...");
+            TiberianSun.Play();
             Thread.Sleep(900);
             Console.WriteLine("INITIATE TRANSFERRING OF ENCRYPTED FILES INTO HIGH-SECURITY ENVIRONMENT...");
+            TiberianSun.Play();
             Thread.Sleep(200);
             Console.ForegroundColor = ConsoleColor.White;
 
